@@ -1,0 +1,18 @@
+Feature:About Tester
+In order to get a high paid job
+As a manual tester
+I want to learn automation
+
+Scenario: I am a manual Tester
+Given I am a "manual" Tester
+When i apply for job
+Then i got "less" paid job
+And i am "not" satisfied with my salary
+But my family "still" satisfied
+
+Scenario: I am a Automation Tester
+Given I am a "Automation" Tester
+When i apply for job
+Then i got "high" paid job
+And i am "very" satisfied with my salary
+But my family "highly" satisfied

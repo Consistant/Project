@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Data Driven Basics">
+
+<listeners>
+	<listener class-name="com.selenium.Listeners.CustomListeners"/>
+</listeners>
+
+<test name="Bank Manager LoginTest">
+    <classes>
+      <class name="com.selenium.testcase.BankmanagerLoginTest"/>
+      <class name="com.selenium.testcase.AddCustomer"/>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->
